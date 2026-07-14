@@ -32,6 +32,20 @@ npm install
 CMDB_PORT=8099 npm start          # http://localhost:8099
 ```
 
+That's the whole setup. On first run the app creates `data/`, migrates the
+SQLite schema and generates the credential-vault key — no separate database
+step. (`npm run init-db` exists if you want to create the DB without starting
+the server, but `npm start` does it for you.)
+
+> **A fresh clone starts empty.** `data/` is gitignored, so the repo carries no
+> database — you get an empty CMDB and populate it by running discovery.
+
+> **Back up `data/.secret.key` with your database.** It is auto-generated on
+> first run and it is the only thing that can decrypt the credentials stored in
+> `data/cmdb.db`. Restoring the DB without the key leaves every stored
+> credential unreadable. In production, inject the key via `CMDB_SECRET_KEY`
+> from a secret manager instead of relying on the generated file.
+
 Then in the UI:
 
 1. **Credentials →** add your iLO (Redfish) login and/or SNMP community/v3 user.
