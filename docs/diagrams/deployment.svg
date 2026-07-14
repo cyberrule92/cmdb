@@ -1,0 +1,37 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 470' width='1000' height='470'>
+  <defs>
+    <marker id='arw' markerWidth='9' markerHeight='9' refX='7' refY='3' orient='auto'>
+      <path d='M0,0 L7,3 L0,6 Z' fill='#666666'/></marker>
+    <marker id='arwo' markerWidth='9' markerHeight='9' refX='1' refY='3' orient='auto'>
+      <path d='M7,0 L0,3 L7,6 Z' fill='#666666'/></marker>
+  </defs>
+  <rect width='1000' height='470' fill='#ffffff'/>
+  <text x='500' y='30' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='18' font-weight='700' fill='#333333'>Deployment Topology</text>
+  <text x='500' y='50' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='12' font-weight='400' fill='#666666'>Current single-node · roadmap collector scale-out</text><rect x='40' y='70' width='430' height='360' rx='12' fill='#fafbfe' stroke='#c3ccda' stroke-width='1.4'/><text x='255' y='96' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='14' font-weight='700' fill='#333333'>Single-node (current)</text><rect x='120' y='120' width='270' height='44' rx='9' fill='#e6f7f1' stroke='#01a982' stroke-width='1.5'/>
+  <text x='255' y='146.66666666666666' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='14' font-weight='600' fill='#333333'>OpenCMDB (Node process)</text>
+  
+  <rect x='120' y='180' width='130' height='40' rx='9' fill='#ece7ef' stroke='#614767' stroke-width='1.5'/>
+  <text x='185' y='204' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='12' font-weight='600' fill='#333333'>SQLite</text>
+  
+  <rect x='260' y='180' width='130' height='40' rx='9' fill='#ece7ef' stroke='#614767' stroke-width='1.5'/>
+  <text x='325' y='204' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='12' font-weight='600' fill='#333333'>Vault key</text>
+  
+  <line x1='255' y1='164' x2='190' y2='180' stroke='#666666' stroke-width='1.4'  marker-end='url(#arw)'/><line x1='255' y1='164' x2='320' y2='180' stroke='#666666' stroke-width='1.4'  marker-end='url(#arw)'/><rect x='90' y='340' width='330' height='60' rx='9' fill='#eef1f1' stroke='#5f7975' stroke-width='1.5'/>
+  <text x='255' y='367' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='14' font-weight='600' fill='#333333'>iLO BMCs · Switches · Servers</text>
+  <text x='255' y='384' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='10.5' fill='#666666'>reachable from this host (443 / 161)</text>
+  <line x1='255' y1='220' x2='255' y2='340' stroke='#666666' stroke-width='1.4'  marker-end='url(#arw)'/><rect x='530' y='70' width='430' height='360' rx='12' fill='#fafbfe' stroke='#c3ccda' stroke-width='1.4'/><text x='745' y='96' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='14' font-weight='700' fill='#333333'>Scale-out (roadmap)</text><rect x='600' y='120' width='290' height='46' rx='9' fill='#e6f7f1' stroke='#01a982' stroke-width='1.5'/>
+  <text x='745' y='140' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='14' font-weight='600' fill='#333333'>Central plane</text>
+  <text x='745' y='157' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='10.5' fill='#666666'>API + Postgres/JSONB + reconciliation</text>
+  <rect x='570' y='220' width='140' height='44' rx='9' fill='#e2edf3' stroke='#00739d' stroke-width='1.5'/>
+  <text x='640' y='245.83333333333334' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='11.5' font-weight='600' fill='#333333'>Collector — Site A</text>
+  
+  <rect x='780' y='220' width='140' height='44' rx='9' fill='#e2edf3' stroke='#00739d' stroke-width='1.5'/>
+  <text x='850' y='245.83333333333334' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='11.5' font-weight='600' fill='#333333'>Collector — Site B</text>
+  
+  <line x1='680' y1='220' x2='720' y2='166' stroke='#666666' stroke-width='1.4'  marker-end='url(#arw)'/><line x1='810' y1='220' x2='780' y2='166' stroke='#666666' stroke-width='1.4'  marker-end='url(#arw)'/><text x='745' y='200' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='10' font-weight='400' fill='#666666'>mTLS · normalized CI graphs</text><rect x='560' y='350' width='160' height='50' rx='9' fill='#eef1f1' stroke='#5f7975' stroke-width='1.5'/>
+  <text x='640' y='378.6666666666667' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='11' font-weight='600' fill='#333333'>Site A infra</text>
+  
+  <rect x='770' y='350' width='160' height='50' rx='9' fill='#eef1f1' stroke='#5f7975' stroke-width='1.5'/>
+  <text x='850' y='378.6666666666667' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='11' font-weight='600' fill='#333333'>Site B infra</text>
+  
+  <line x1='640' y1='264' x2='640' y2='350' stroke='#666666' stroke-width='1.4'  marker-end='url(#arw)'/><line x1='850' y1='264' x2='850' y2='350' stroke='#666666' stroke-width='1.4'  marker-end='url(#arw)'/></svg>

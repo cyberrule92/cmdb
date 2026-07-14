@@ -1,0 +1,37 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1020 560' width='1020' height='560'>
+  <defs>
+    <marker id='arw' markerWidth='9' markerHeight='9' refX='7' refY='3' orient='auto'>
+      <path d='M0,0 L7,3 L0,6 Z' fill='#666666'/></marker>
+    <marker id='arwo' markerWidth='9' markerHeight='9' refX='1' refY='3' orient='auto'>
+      <path d='M7,0 L0,3 L7,6 Z' fill='#666666'/></marker>
+  </defs>
+  <rect width='1020' height='560' fill='#ffffff'/>
+  <text x='510' y='30' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='18' font-weight='700' fill='#333333'>Discovery Sequence (LLD)</text>
+  <rect x='20' y='60' width='140' height='34' rx='9' fill='#e6f7f1' stroke='#01a982' stroke-width='1.5'/>
+  <text x='90' y='81' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='12' font-weight='600' fill='#333333'>UI</text>
+  
+  <line x1='90' y1='94' x2='90' y2='520' stroke='#c3ccda' stroke-width='1.2' stroke-dasharray='4 4'/><rect x='180' y='60' width='140' height='34' rx='9' fill='#e6f7f1' stroke='#01a982' stroke-width='1.5'/>
+  <text x='250' y='81' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='12' font-weight='600' fill='#333333'>API</text>
+  
+  <line x1='250' y1='94' x2='250' y2='520' stroke='#c3ccda' stroke-width='1.2' stroke-dasharray='4 4'/><rect x='360' y='60' width='140' height='34' rx='9' fill='#e6f7f1' stroke='#01a982' stroke-width='1.5'/>
+  <text x='430' y='81' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='12' font-weight='600' fill='#333333'>Orchestrator</text>
+  
+  <line x1='430' y1='94' x2='430' y2='520' stroke='#c3ccda' stroke-width='1.2' stroke-dasharray='4 4'/><rect x='550' y='60' width='140' height='34' rx='9' fill='#e6f7f1' stroke='#01a982' stroke-width='1.5'/>
+  <text x='620' y='81' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='12' font-weight='600' fill='#333333'>Connector</text>
+  
+  <line x1='620' y1='94' x2='620' y2='520' stroke='#c3ccda' stroke-width='1.2' stroke-dasharray='4 4'/><rect x='740' y='60' width='140' height='34' rx='9' fill='#e6f7f1' stroke='#01a982' stroke-width='1.5'/>
+  <text x='810' y='81' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='12' font-weight='600' fill='#333333'>Device (iLO/SNMP)</text>
+  
+  <line x1='810' y1='94' x2='810' y2='520' stroke='#c3ccda' stroke-width='1.2' stroke-dasharray='4 4'/><rect x='890' y='60' width='140' height='34' rx='9' fill='#e6f7f1' stroke='#01a982' stroke-width='1.5'/>
+  <text x='960' y='81' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='12' font-weight='600' fill='#333333'>CMDB</text>
+  
+  <line x1='960' y1='94' x2='960' y2='520' stroke='#c3ccda' stroke-width='1.2' stroke-dasharray='4 4'/><line x1='90' y1='130' x2='250' y2='130' stroke='#666666' stroke-width='1.4'  marker-end='url(#arw)'/>
+    <text x='170' y='124' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='11' font-weight='400' fill='#555555'>POST /jobs/:id/run</text><line x1='250' y1='176' x2='430' y2='176' stroke='#666666' stroke-width='1.4'  marker-end='url(#arw)'/>
+    <text x='340' y='170' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='11' font-weight='400' fill='#555555'>runJob(id) → 202 Accepted</text><line x1='430' y1='222' x2='620' y2='222' stroke='#666666' stroke-width='1.4'  marker-end='url(#arw)'/>
+    <text x='525' y='216' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='11' font-weight='400' fill='#555555'>discover(host, cred) — per target, bounded pool</text><line x1='620' y1='268' x2='810' y2='268' stroke='#666666' stroke-width='1.4'  marker-end='url(#arw)'/>
+    <text x='715' y='262' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='11' font-weight='400' fill='#555555'>Redfish GET tree / SNMP GET+walk</text><line x1='810' y1='314' x2='620' y2='314' stroke='#666666' stroke-width='1.4' stroke-dasharray='5 4' marker-end='url(#arw)'/>
+    <text x='715' y='308' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='11' font-weight='400' fill='#555555'>resources</text><line x1='620' y1='360' x2='430' y2='360' stroke='#666666' stroke-width='1.4' stroke-dasharray='5 4' marker-end='url(#arw)'/>
+    <text x='525' y='354' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='11' font-weight='400' fill='#555555'>normalized CI graph {nodes, edges}</text><line x1='430' y1='406' x2='960' y2='406' stroke='#666666' stroke-width='1.4'  marker-end='url(#arw)'/>
+    <text x='695' y='400' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='11' font-weight='400' fill='#555555'>ingestGraph() → reconcile + upsert</text><line x1='960' y1='452' x2='430' y2='452' stroke='#666666' stroke-width='1.4' stroke-dasharray='5 4' marker-end='url(#arw)'/>
+    <text x='695' y='446' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='11' font-weight='400' fill='#555555'>created / updated stats</text><line x1='430' y1='498' x2='90' y2='498' stroke='#666666' stroke-width='1.4' stroke-dasharray='5 4' marker-end='url(#arw)'/>
+    <text x='260' y='492' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='11' font-weight='400' fill='#555555'>run status (UI polls /runs/:id)</text></svg>

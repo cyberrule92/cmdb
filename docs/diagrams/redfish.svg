@@ -1,0 +1,58 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 960 620' width='960' height='620'>
+  <defs>
+    <marker id='arw' markerWidth='9' markerHeight='9' refX='7' refY='3' orient='auto'>
+      <path d='M0,0 L7,3 L0,6 Z' fill='#666666'/></marker>
+    <marker id='arwo' markerWidth='9' markerHeight='9' refX='1' refY='3' orient='auto'>
+      <path d='M7,0 L0,3 L7,6 Z' fill='#666666'/></marker>
+  </defs>
+  <rect width='960' height='620' fill='#ffffff'/>
+  <text x='480' y='30' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='18' font-weight='700' fill='#333333'>Redfish Resource Model</text>
+  <text x='480' y='50' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='12' font-weight='400' fill='#666666'>Every node becomes a first-class CI (21 from one baremetal)</text><rect x='390' y='70' width='180' height='46' rx='9' fill='#eef1f1' stroke='#5f7975' stroke-width='1.5'/>
+  <text x='480' y='90' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='12.5' font-weight='600' fill='#333333'>Chassis</text>
+  <text x='480' y='107' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='10.5' fill='#666666'>physical enclosure</text>
+  <rect x='150' y='200' width='170' height='46' rx='9' fill='#e6f7f1' stroke='#01a982' stroke-width='1.5'/>
+  <text x='235' y='220' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='12.5' font-weight='600' fill='#333333'>Compute System</text>
+  <text x='235' y='237' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='10.5' fill='#666666'>ProLiant DL380</text>
+  <rect x='340' y='200' width='130' height='34' rx='9' fill='#f9e9e9' stroke='#a2423d' stroke-width='1.5'/>
+  <text x='405' y='221.16666666666666' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='12.5' font-weight='600' fill='#333333'>Power Supplies</text>
+  
+  <rect x='486' y='200' width='90' height='34' rx='9' fill='#e0f4f2' stroke='#117b82' stroke-width='1.5'/>
+  <text x='531' y='221.16666666666666' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='12.5' font-weight='600' fill='#333333'>Fans</text>
+  
+  <rect x='592' y='200' width='120' height='34' rx='9' fill='#fbece3' stroke='#c25b4e' stroke-width='1.5'/>
+  <text x='652' y='221.16666666666666' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='12.5' font-weight='600' fill='#333333'>Temp Sensors</text>
+  
+  <rect x='728' y='200' width='150' height='34' rx='9' fill='#e2edf3' stroke='#00739d' stroke-width='1.5'/>
+  <text x='803' y='221.16666666666666' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='12.5' font-weight='600' fill='#333333'>Net Adapters</text>
+  
+  <rect x='728' y='264' width='150' height='34' rx='9' fill='#eef1f1' stroke='#5f7975' stroke-width='1.5'/>
+  <text x='803' y='285.1666666666667' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='12.5' font-weight='600' fill='#333333'>Devices (PCIe)</text>
+  
+  <path d='M480 116 C 480 158, 235 158, 235 200' fill='none' stroke='#999999' stroke-width='1.3'/><path d='M480 116 C 480 158, 405 158, 405 200' fill='none' stroke='#999999' stroke-width='1.3'/><path d='M480 116 C 480 158, 531 158, 531 200' fill='none' stroke='#999999' stroke-width='1.3'/><path d='M480 116 C 480 158, 652 158, 652 200' fill='none' stroke='#999999' stroke-width='1.3'/><path d='M480 116 C 480 158, 803 158, 803 200' fill='none' stroke='#999999' stroke-width='1.3'/><path d='M803 234 C 803 249, 803 249, 803 264' fill='none' stroke='#999999' stroke-width='1.3'/><rect x='40' y='340' width='120' height='34' rx='9' fill='#eef1f1' stroke='#5f7975' stroke-width='1.5'/>
+  <text x='100' y='361.1666666666667' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='12.5' font-weight='600' fill='#333333'>Processors</text>
+  
+  <path d='M235 246 C 235 293, 100 293, 100 340' fill='none' stroke='#999999' stroke-width='1.3'/><rect x='172' y='340' width='120' height='34' rx='9' fill='#eef1f1' stroke='#5f7975' stroke-width='1.5'/>
+  <text x='232' y='361.1666666666667' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='12.5' font-weight='600' fill='#333333'>Memory</text>
+  
+  <path d='M235 246 C 235 293, 232 293, 232 340' fill='none' stroke='#999999' stroke-width='1.3'/><rect x='304' y='340' width='120' height='34' rx='9' fill='#e2edf3' stroke='#00739d' stroke-width='1.5'/>
+  <text x='364' y='361.1666666666667' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='12.5' font-weight='600' fill='#333333'>Ethernet Ifaces</text>
+  
+  <path d='M235 246 C 235 293, 364 293, 364 340' fill='none' stroke='#999999' stroke-width='1.3'/><rect x='436' y='340' width='120' height='34' rx='9' fill='#fff1e0' stroke='#c96a00' stroke-width='1.5'/>
+  <text x='496' y='361.1666666666667' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='12.5' font-weight='600' fill='#333333'>Drives</text>
+  
+  <path d='M235 246 C 235 293, 496 293, 496 340' fill='none' stroke='#999999' stroke-width='1.3'/><rect x='568' y='340' width='120' height='34' rx='9' fill='#fff1e0' stroke='#c96a00' stroke-width='1.5'/>
+  <text x='628' y='361.1666666666667' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='12.5' font-weight='600' fill='#333333'>Volumes</text>
+  
+  <path d='M235 246 C 235 293, 628 293, 628 340' fill='none' stroke='#999999' stroke-width='1.3'/><rect x='150' y='430' width='170' height='46' rx='9' fill='#ece7ef' stroke='#614767' stroke-width='1.5'/>
+  <text x='235' y='450' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='12.5' font-weight='600' fill='#333333'>Manager (BMC/iLO)</text>
+  <text x='235' y='467' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='10.5' fill='#666666'>managed_by</text>
+  <path d='M235 246 C 235 338, 235 338, 235 430' fill='none' stroke='#999999' stroke-width='1.3'/><rect x='150' y='500' width='170' height='46' rx='9' fill='#e2edf3' stroke='#00739d' stroke-width='1.5'/>
+  <text x='235' y='520' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='12.5' font-weight='600' fill='#333333'>Network Interfaces</text>
+  <text x='235' y='537' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='10.5' fill='#666666'>management NICs</text>
+  <path d='M235 476 C 235 488, 235 488, 235 500' fill='none' stroke='#999999' stroke-width='1.3'/><rect x='560' y='430' width='150' height='34' rx='9' fill='#ece7ef' stroke='#614767' stroke-width='1.5'/>
+  <text x='635' y='451.1666666666667' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='12.5' font-weight='600' fill='#333333'>Firmware</text>
+  
+  <rect x='730' y='430' width='150' height='34' rx='9' fill='#e2f3ec' stroke='#008567' stroke-width='1.5'/>
+  <text x='805' y='451.1666666666667' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='12.5' font-weight='600' fill='#333333'>Software</text>
+  
+  <path d='M235 246 C 235 338, 635 338, 635 430' fill='none' stroke='#999999' stroke-width='1.3'/><path d='M235 246 C 235 338, 805 338, 805 430' fill='none' stroke='#999999' stroke-width='1.3'/></svg>

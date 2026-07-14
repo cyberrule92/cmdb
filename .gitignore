@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Runtime data — REAL discovery output and the credential-vault key.
+# Never commit: contains live CIs, relationships and the AES-256-GCM key
+# that decrypts the stored credential vault.
+data/
+
+# Local Claude Code settings (machine-specific)
+.claude/settings.local.json
+
+# Logs / OS noise
+*.log
+npm-debug.log*
+.DS_Store

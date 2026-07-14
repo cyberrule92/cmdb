@@ -1,0 +1,44 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 940 600' width='940' height='600'>
+  <defs>
+    <marker id='arw' markerWidth='9' markerHeight='9' refX='7' refY='3' orient='auto'>
+      <path d='M0,0 L7,3 L0,6 Z' fill='#666666'/></marker>
+    <marker id='arwo' markerWidth='9' markerHeight='9' refX='1' refY='3' orient='auto'>
+      <path d='M7,0 L0,3 L7,6 Z' fill='#666666'/></marker>
+  </defs>
+  <rect width='940' height='600' fill='#ffffff'/>
+  <text x='470' y='30' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='18' font-weight='700' fill='#333333'>System Architecture (HLD)</text>
+  <text x='470' y='50' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='12' font-weight='400' fill='#666666'>Layered components — discovery to system of record</text><rect x='300' y='70' width='340' height='46' rx='9' fill='#e6f7f1' stroke='#01a982' stroke-width='1.5'/>
+  <text x='470' y='90' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='14' font-weight='600' fill='#333333'>Web Console (SPA)</text>
+  <text x='470' y='107' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='10.5' fill='#666666'>Dashboard · Inventory · Topology · Discovery</text>
+  <line x1='470' y1='116' x2='470' y2='150' stroke='#666666' stroke-width='1.4'  marker-end='url(#arw)'/><rect x='210' y='150' width='520' height='46' rx='9' fill='#e6f7f1' stroke='#01a982' stroke-width='1.5'/>
+  <text x='470' y='170' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='14' font-weight='600' fill='#333333'>REST API — Fastify</text>
+  <text x='470' y='187' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='10.5' fill='#666666'>/cis · /jobs · /runs · /topology · /export</text>
+  <rect x='60' y='240' width='250' height='92' rx='9' fill='#e6f7f1' stroke='#01a982' stroke-width='1.5'/>
+  <text x='185' y='274' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='14' font-weight='600' fill='#333333'>CMDB Core</text>
+  <text x='185' y='291' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='10.5' fill='#666666'>CI model · Reconciliation</text>
+  <text x='185' y='307' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='10.5' fill='#666666'>Relationships · Change log</text><rect x='350' y='240' width='250' height='92' rx='9' fill='#e2edf3' stroke='#00739d' stroke-width='1.5'/>
+  <text x='475' y='274' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='14' font-weight='600' fill='#333333'>Discovery Orchestrator</text>
+  <text x='475' y='291' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='10.5' fill='#666666'>Job runner · Concurrency</text>
+  <text x='475' y='307' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='10.5' fill='#666666'>Scheduler · Target expansion</text><rect x='640' y='240' width='240' height='92' rx='9' fill='#ece7ef' stroke='#614767' stroke-width='1.5'/>
+  <text x='760' y='274' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='14' font-weight='600' fill='#333333'>Credential Vault</text>
+  <text x='760' y='291' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='10.5' fill='#666666'>AES-256-GCM</text>
+  <text x='760' y='307' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='10.5' fill='#666666'>secrets at rest</text><line x1='400' y1='196' x2='210' y2='240' stroke='#666666' stroke-width='1.4'  marker-end='url(#arw)'/><line x1='475' y1='196' x2='475' y2='240' stroke='#666666' stroke-width='1.4'  marker-end='url(#arw)'/><line x1='560' y1='196' x2='760' y2='240' stroke='#666666' stroke-width='1.4'  marker-end='url(#arw)'/><rect x='330' y='372' width='90' height='44' rx='9' fill='#e6f7f1' stroke='#01a982' stroke-width='1.5'/>
+  <text x='375' y='391' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='12' font-weight='600' fill='#333333'>Redfish</text>
+  <text x='375' y='408' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='10.5' fill='#666666'>iLO / BMC</text>
+  <line x1='475' y1='332' x2='375' y2='372' stroke='#666666' stroke-width='1.4'  marker-end='url(#arw)'/><line x1='375' y1='416' x2='375' y2='470' stroke='#666666' stroke-width='1.4'  marker-end='url(#arw)'/><rect x='428' y='372' width='90' height='44' rx='9' fill='#e2edf3' stroke='#00739d' stroke-width='1.5'/>
+  <text x='473' y='391' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='12' font-weight='600' fill='#333333'>SNMP</text>
+  <text x='473' y='408' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='10.5' fill='#666666'>v2c / v3</text>
+  <line x1='475' y1='332' x2='473' y2='372' stroke='#666666' stroke-width='1.4'  marker-end='url(#arw)'/><line x1='473' y1='416' x2='473' y2='470' stroke='#666666' stroke-width='1.4'  marker-end='url(#arw)'/><rect x='526' y='372' width='90' height='44' rx='9' fill='#e6f7f1' stroke='#01a982' stroke-width='1.5'/>
+  <text x='571' y='391' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='12' font-weight='600' fill='#333333'>vCenter</text>
+  <text x='571' y='408' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='10.5' fill='#666666'>ESXi / VMs</text>
+  <line x1='475' y1='332' x2='571' y2='372' stroke='#666666' stroke-width='1.4'  marker-end='url(#arw)'/><line x1='571' y1='416' x2='571' y2='470' stroke='#666666' stroke-width='1.4'  marker-end='url(#arw)'/><rect x='624' y='372' width='90' height='44' rx='9' fill='#eef1f1' stroke='#5f7975' stroke-width='1.5'/>
+  <text x='669' y='391' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='12' font-weight='600' fill='#333333'>SSH</text>
+  <text x='669' y='408' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='10.5' fill='#666666'>Linux</text>
+  <line x1='475' y1='332' x2='669' y2='372' stroke='#666666' stroke-width='1.4'  marker-end='url(#arw)'/><line x1='669' y1='416' x2='669' y2='470' stroke='#666666' stroke-width='1.4'  marker-end='url(#arw)'/><rect x='60' y='372' width='250' height='44' rx='9' fill='#f2f5f4' stroke='#b4c1bf' stroke-width='1.5'/>
+  <text x='185' y='391' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='14' font-weight='600' fill='#333333'>Data Access Layer</text>
+  <text x='185' y='408' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='10.5' fill='#666666'>repositories.js</text>
+  <line x1='185' y1='332' x2='185' y2='372' stroke='#666666' stroke-width='1.4'  marker-end='url(#arw)'/><path d='M110 470 a75 12 0 0 0 150 0 v-40 a75 12 0 0 0 -150 0 z' fill='#ece7ef' stroke='#614767' stroke-width='1.5'/>
+  <ellipse cx='185' cy='430' rx='75' ry='12' fill='#fff' stroke='#614767' stroke-width='1.5'/><text x='185' y='464' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='13' font-weight='600' fill='#333333'>SQLite (WAL)</text><line x1='185' y1='416' x2='185' y2='418' stroke='#666666' stroke-width='1.4'  /><rect x='350' y='470' width='530' height='60' rx='9' fill='#eef1f1' stroke='#5f7975' stroke-width='1.5'/>
+  <text x='615' y='497' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='14' font-weight='600' fill='#333333'>Customer Infrastructure</text>
+  <text x='615' y='514' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='10.5' fill='#666666'>iLO BMCs (443) · Switches / Routers (SNMP 161) · Servers</text>
+  <line x1='409' y1='416' x2='430' y2='470' stroke='#666666' stroke-width='1.4'  marker-end='url(#arw)'/><line x1='541' y1='416' x2='560' y2='470' stroke='#666666' stroke-width='1.4'  marker-end='url(#arw)'/></svg>

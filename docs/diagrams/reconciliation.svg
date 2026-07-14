@@ -1,0 +1,35 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 780' width='760' height='780'>
+  <defs>
+    <marker id='arw' markerWidth='9' markerHeight='9' refX='7' refY='3' orient='auto'>
+      <path d='M0,0 L7,3 L0,6 Z' fill='#666666'/></marker>
+    <marker id='arwo' markerWidth='9' markerHeight='9' refX='1' refY='3' orient='auto'>
+      <path d='M7,0 L0,3 L7,6 Z' fill='#666666'/></marker>
+  </defs>
+  <rect width='760' height='780' fill='#ffffff'/>
+  <text x='380' y='30' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='18' font-weight='700' fill='#333333'>Reconciliation Engine (LLD)</text>
+  <text x='380' y='50' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='12' font-weight='400' fill='#666666'>One stable identity per physical asset across sources</text><rect x='220' y='70' width='320' height='44' rx='22' fill='#e6f7f1' stroke='#01a982' stroke-width='1.5'/>
+  <text x='380' y='96.66666666666667' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='14' font-weight='600' fill='#333333'>Incoming CI descriptor</text>
+  
+  <line x1='380' y1='114' x2='380' y2='140' stroke='#666666' stroke-width='1.4'  marker-end='url(#arw)'/><rect x='190' y='140' width='380' height='46' rx='22' fill='#f2f5f4' stroke='#b4c1bf' stroke-width='1.5'/>
+  <text x='380' y='160' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='14' font-weight='600' fill='#333333'>Build type-scoped recon key</text>
+  <text x='380' y='177' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='10.5' fill='#666666'>ci_type | serial&gt;uuid&gt;mac&gt;ip&gt;host</text>
+  <line x1='380' y1='186' x2='380' y2='212' stroke='#666666' stroke-width='1.4'  marker-end='url(#arw)'/><rect x='160' y='212' width='440' height='46' rx='22' fill='#f2f5f4' stroke='#b4c1bf' stroke-width='1.5'/>
+  <text x='380' y='232' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='14' font-weight='600' fill='#333333'>Match by identifier priority</text>
+  <text x='380' y='249' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='10.5' fill='#666666'>same ci_type · promoted cols then identifier table</text>
+  <line x1='380' y1='258' x2='380' y2='284' stroke='#666666' stroke-width='1.4'  marker-end='url(#arw)'/><polygon points='380,284 480,329 380,374 280,329' fill='#fff1e0' stroke='#c96a00' stroke-width='1.5'/>
+    <text x='380' y='333' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='13' font-weight='600' fill='#333333'>Existing CI?</text><text x='265' y='322' text-anchor='end' font-family='Metric, Arial, Helvetica, sans-serif' font-size='12' font-weight='700' fill='#a2423d'>no</text><text x='495' y='322' text-anchor='start' font-family='Metric, Arial, Helvetica, sans-serif' font-size='12' font-weight='700' fill='#01a982'>yes</text><path d='M280 329 H 120 V 430' fill='none' stroke='#666666' stroke-width='1.4' marker-end='url(#arw)'/><rect x='40' y='430' width='160' height='56' rx='9' fill='#e6f7f1' stroke='#01a982' stroke-width='1.5'/>
+  <text x='120' y='455' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='14' font-weight='600' fill='#333333'>INSERT new CI</text>
+  <text x='120' y='472' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='10.5' fill='#666666'>first_seen = now</text>
+  <path d='M480 329 H 640 V 430' fill='none' stroke='#666666' stroke-width='1.4' marker-end='url(#arw)'/><rect x='560' y='430' width='170' height='56' rx='9' fill='#ece7ef' stroke='#614767' stroke-width='1.5'/>
+  <text x='645' y='455' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='14' font-weight='600' fill='#333333'>MERGE attributes</text>
+  <text x='645' y='472' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='10.5' fill='#666666'>record deltas → ci_changes</text>
+  <path d='M120 486 V 540 H 380' fill='none' stroke='#666666' stroke-width='1.4'/><path d='M645 486 V 540 H 380' fill='none' stroke='#666666' stroke-width='1.4'/><line x1='380' y1='540' x2='380' y2='566' stroke='#666666' stroke-width='1.4'  marker-end='url(#arw)'/><rect x='170' y='566' width='420' height='46' rx='22' fill='#e2edf3' stroke='#00739d' stroke-width='1.5'/>
+  <text x='380' y='586' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='14' font-weight='600' fill='#333333'>Register all identifiers</text>
+  <text x='380' y='603' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='10.5' fill='#666666'>future sources reconcile to this CI</text>
+  <line x1='380' y1='612' x2='380' y2='638' stroke='#666666' stroke-width='1.4'  marker-end='url(#arw)'/><rect x='200' y='638' width='360' height='46' rx='22' fill='#e6f7f1' stroke='#01a982' stroke-width='1.5'/>
+  <text x='380' y='658' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='14' font-weight='600' fill='#333333'>Upsert relationships</text>
+  <text x='380' y='675' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='10.5' fill='#666666'>contains · managed_by · connected_to</text>
+  <line x1='380' y1='684' x2='380' y2='710' stroke='#666666' stroke-width='1.4'  marker-end='url(#arw)'/><rect x='230' y='710' width='300' height='44' rx='22' fill='#f2f5f4' stroke='#b4c1bf' stroke-width='1.5'/>
+  <text x='380' y='736.6666666666666' text-anchor='middle' font-family='Metric, Arial, Helvetica, sans-serif' font-size='14' font-weight='600' fill='#333333'>Committed in one transaction</text>
+  
+  </svg>

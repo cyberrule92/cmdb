@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>OpenCMDB — Asset Inventory</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div id="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="logo">◆</div>
+        <div>
+          <div class="brand-name">OpenCMDB</div>
+          <div class="brand-sub">Asset Discovery</div>
+        </div>
+      </div>
+      <nav id="nav">
+        <a href="#/dashboard" data-view="dashboard"><span class="ico">▚</span> Dashboard</a>
+        <a href="#/inventory" data-view="inventory"><span class="ico">▤</span> Inventory</a>
+        <a href="#/topology" data-view="topology"><span class="ico">⧉</span> Topology</a>
+        <a href="#/discovery" data-view="discovery"><span class="ico">◎</span> Discovery</a>
+        <a href="#/credentials" data-view="credentials"><span class="ico">⚿</span> Credentials</a>
+        <a href="#/access" data-view="access"><span class="ico">⧗</span> Access &amp; Audit</a>
+      </nav>
+      <div class="sidebar-foot">
+        <div id="conn-dot" class="dot"></div><span id="conn-text">connecting…</span>
+      </div>
+    </aside>
+    <main id="main"><div class="loading">Loading…</div></main>
+  </div>
+  <div id="drawer" class="drawer"><div class="drawer-body"></div></div>
+  <div id="drawer-scrim"></div>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>
