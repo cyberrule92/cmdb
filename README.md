@@ -29,7 +29,7 @@ inventory). Real discovery, no simulated data.
 
 ```bash
 npm install
-CMDB_PORT=8099 npm start          # http://localhost:8099
+npm start                         # http://localhost:8447
 ```
 
 That's the whole setup. On first run the app creates `data/`, migrates the
@@ -61,7 +61,7 @@ Then in the UI:
 
 | Var | Default | Purpose |
 |-----|---------|---------|
-| `CMDB_PORT` | `8080` | HTTP port |
+| `CMDB_PORT` | `8447` | HTTP port |
 | `CMDB_HOST` | `0.0.0.0` | bind address |
 | `CMDB_DB` | `data/cmdb.db` | SQLite path |
 | `CMDB_SECRET_KEY` | auto-generated | 64-hex (32-byte) vault key; inject in prod |

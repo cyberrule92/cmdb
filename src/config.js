@@ -10,7 +10,7 @@ fs.mkdirSync(DATA_DIR, { recursive: true });
 
 export const config = {
   host: process.env.CMDB_HOST || '0.0.0.0',
-  port: Number(process.env.CMDB_PORT || 8080),
+  port: Number(process.env.CMDB_PORT || 8447),
   dbPath: process.env.CMDB_DB || path.join(DATA_DIR, 'cmdb.db'),
   // 32-byte key (hex) used to encrypt stored credentials. Auto-generated & persisted
   // on first run if not supplied via env. In production, inject via secret manager.
