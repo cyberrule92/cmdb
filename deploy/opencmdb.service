@@ -1,0 +1,30 @@
+[Unit]
+Description=OpenCMDB — hardware discovery & CMDB
+Documentation=file:///opt/cmdb/README.md
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/cmdb
+ExecStart=/usr/bin/node src/server.js
+Environment=NODE_ENV=production
+Environment=CMDB_PORT=8447
+
+Restart=always
+RestartSec=5s
+
+# Filesystem: everything read-only except the SQLite DB + vault key.
+ProtectSystem=strict
+ReadWritePaths=/opt/cmdb/data
+PrivateTmp=true
+NoNewPrivileges=true
+ProtectKernelTunables=true
+ProtectControlGroups=true
+
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=opencmdb
+
+[Install]
+WantedBy=multi-user.target
